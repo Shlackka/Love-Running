@@ -25,7 +25,7 @@ header {
 
 /* Main styling */
 main {
-    background-color: blue;
+    background-color: red;
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
 }
