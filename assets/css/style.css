@@ -158,6 +158,31 @@ main {
     justify-content: center;
 }
 
+/* Meetups */
+#times {
+    background: url(../images/dublin-city.webp) no-repeat center center/cover;
+    /* Handles responsitivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* this will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available sapce on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+}
+
+#times h3 {
+    /* Override for h3 color */
+    color: #fafafa;
+}
+
 /* Footer styling */
 #social-networks {
     text-align: center;
